@@ -1,11 +1,11 @@
 from math import sqrt
 # Taking input from the user
 
-num = int(input("Please enter a number: "))
+num = int(input("Please Mr Godwin enter a number: "))
 
 # Calculating square root
 
-sqrt_calculator = sqrt(num)
+sqrt_calculator = int(sqrt(num))
 
 # Displaying the result
 

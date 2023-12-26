@@ -1,0 +1,92 @@
+[
+    {
+        "Variable Name": "age",
+        "Role": "Feature",
+        "Type": "Integer",
+        "Demographic": "Age",
+        "Description": "",
+        "Units": "",
+        "Missing Values": "no"
+    },
+    {
+        "Variable Name": "job",
+        "Role": "Feature",
+        "Type": "Categorical",
+        "Demographic": "Occupation",
+        "Description": "type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')",
+        "Units": "",
+        "Missing Values": "no"
+    },
+    {
+        "Variable Name": "marital",
+        "Role": "Feature",
+        "Type": "Categorical",
+        "Demographic": "Marital Status",
+        "Description": "marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)",
+        "Units": "",
+        "Missing Values": "no"
+    },
+    {
+        "Variable Name": "education",
+        "Role": "Feature",
+        "Type": "Categorical",
+        "Demographic": "Education Level",
+        "Description": "(categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')",
+        "Units": "",
+        "Missing Values": "no"
+    },
+    {
+        "Variable Name": "default",
+        "Role": "Feature",
+        "Type": "Binary",
+        "Demographic": "",
+        "Description": "has credit in default?",
+        "Units": "",
+        "Missing Values": "no"
+    },
+    {
+        "Variable Name": "balance",
+        "Role": "Feature",
+        "Type": "Integer",
+        "Demographic": "",
+        "Description": "average yearly balance",
+        "Units": "euros",
+        "Missing Values": "no"
+    },
+    {
+        "Variable Name": "housing",
+        "Role": "Feature",
+        "Type": "Binary",
+        "Demographic": "",
+        "Description": "has housing loan?",
+        "Units": "",
+        "Missing Values": "no"
+    },
+    {
+        "Variable Name": "loan",
+        "Role": "Feature",
+        "Type": "Binary",
+        "Demographic": "",
+        "Description": "has personal loan?",
+        "Units": "",
+        "Missing Values": "no"
+    },
+    {
+        "Variable Name": "contact",
+        "Role": "Feature",
+        "Type": "Categorical",
+        "Demographic": "",
+        "Description": "contact communication type (categorical: 'cellular','telephone')",
+        "Units": "",
+        "Missing Values": "yes"
+    },
+    {
+        "Variable Name": "day_of_week",
+        "Role": "Feature",
+        "Type": "Date",
+        "Demographic": "",
+        "Description": "last contact day of the week",
+        "Units": "",
+        "Missing Values": "no"
+    }
+]
